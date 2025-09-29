@@ -1,0 +1,12 @@
+[
+    {
+        "searchProduct" : "ca",
+        "expectedProduct" : "Capsicum"
+    },
+
+    {
+        "searchProduct" : "pu",
+        "expectedProduct" : "Pumpkin"
+    }
+]
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-28T22:41:38 IST" name="Suite" finished-at="2025-09-28T22:42:44 IST" duration-ms="65671">
+    <groups>
+      <group name="ValidateSearchInput">
+        <method signature="SearchProductTest.validateSearchAndAddToCart(java.util.HashMap)[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" name="validateSearchAndAddToCart" class="EcommVege.VegeEcomm.SearchProductTest"/>
+      </group> <!-- ValidateSearchInput -->
+    </groups>
+    <test started-at="2025-09-28T22:41:38 IST" name="ProductNotFoundTest" finished-at="2025-09-28T22:42:09 IST" duration-ms="30859">
+      <class name="EcommVege.VegeEcomm.ProductNotFoundTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EcommVege.VegeEcomm.ProductNotFoundTest@72ade7e3]" started-at="2025-09-28T22:41:39 IST" name="launchApplication" finished-at="2025-09-28T22:41:57 IST" duration-ms="18386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productNotFound(java.util.HashMap)[pri:0, instance:EcommVege.VegeEcomm.ProductNotFoundTest@72ade7e3]" started-at="2025-09-28T22:41:57 IST" name="productNotFound" data-provider="getData" finished-at="2025-09-28T22:41:58 IST" duration-ms="1461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchProduct=Avacado}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productNotFound -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:EcommVege.VegeEcomm.ProductNotFoundTest@72ade7e3]" started-at="2025-09-28T22:41:59 IST" name="closeDriver" finished-at="2025-09-28T22:42:09 IST" duration-ms="10603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- EcommVege.VegeEcomm.ProductNotFoundTest -->
+    </test> <!-- ProductNotFoundTest -->
+    <test started-at="2025-09-28T22:41:38 IST" name="ValidateSearch" finished-at="2025-09-28T22:42:24 IST" duration-ms="45588">
+      <class name="EcommVege.VegeEcomm.SearchProductTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" started-at="2025-09-28T22:41:39 IST" name="launchApplication" finished-at="2025-09-28T22:41:57 IST" duration-ms="18331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateSearchAndAddToCart(java.util.HashMap)[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" started-at="2025-09-28T22:41:57 IST" name="validateSearchAndAddToCart" data-provider="getData" finished-at="2025-09-28T22:42:02 IST" duration-ms="5080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchProduct=ca, expectedProduct=Capsicum}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchAndAddToCart -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" started-at="2025-09-28T22:42:02 IST" name="closeDriver" finished-at="2025-09-28T22:42:11 IST" duration-ms="8722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" started-at="2025-09-28T22:42:11 IST" name="launchApplication" finished-at="2025-09-28T22:42:17 IST" duration-ms="5927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateSearchAndAddToCart(java.util.HashMap)[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" started-at="2025-09-28T22:42:17 IST" name="validateSearchAndAddToCart" data-provider="getData" finished-at="2025-09-28T22:42:20 IST" duration-ms="3476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchProduct=pu, expectedProduct=Pumpkin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchAndAddToCart -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:EcommVege.VegeEcomm.SearchProductTest@6aa8e115]" started-at="2025-09-28T22:42:20 IST" name="closeDriver" finished-at="2025-09-28T22:42:24 IST" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- EcommVege.VegeEcomm.SearchProductTest -->
+    </test> <!-- ValidateSearch -->
+    <test started-at="2025-09-28T22:41:38 IST" name="Test" finished-at="2025-09-28T22:42:44 IST" duration-ms="65671">
+      <class name="EcommVege.VegeEcomm.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EcommVege.VegeEcomm.SubmitOrderTest@7d7758be]" started-at="2025-09-28T22:41:39 IST" name="launchApplication" finished-at="2025-09-28T22:41:56 IST" duration-ms="17853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:EcommVege.VegeEcomm.SubmitOrderTest@7d7758be]" started-at="2025-09-28T22:41:57 IST" name="submitOrderTest" data-provider="getData" finished-at="2025-09-28T22:42:22 IST" duration-ms="25573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Belgium, groceryItem=[Cauliflower, Tomato, Carrot, Mushroom, Banana], code=rahulshettyacademy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:EcommVege.VegeEcomm.SubmitOrderTest@7d7758be]" started-at="2025-09-28T22:42:22 IST" name="closeDriver" finished-at="2025-09-28T22:42:24 IST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EcommVege.VegeEcomm.SubmitOrderTest@7d7758be]" started-at="2025-09-28T22:42:24 IST" name="launchApplication" finished-at="2025-09-28T22:42:29 IST" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:EcommVege.VegeEcomm.SubmitOrderTest@7d7758be]" started-at="2025-09-28T22:42:29 IST" name="submitOrderTest" data-provider="getData" finished-at="2025-09-28T22:42:44 IST" duration-ms="14982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=Armenia, groceryItem=[Grapes, Orange, Musk Melon, Mango, Raspberry], code=rahulshettyacademy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:EcommVege.VegeEcomm.SubmitOrderTest@7d7758be]" started-at="2025-09-28T22:42:44 IST" name="closeDriver" finished-at="2025-09-28T22:42:44 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- EcommVege.VegeEcomm.SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

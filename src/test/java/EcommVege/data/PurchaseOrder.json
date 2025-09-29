@@ -1,0 +1,18 @@
+[
+{
+    "groceryItem" : ["Cauliflower", "Tomato", "Carrot", "Mushroom", "Banana"],
+    "code" : "rahulshettyacademy",
+    "country" : "Belgium"
+
+},
+
+{
+    "groceryItem" :["Grapes" , "Orange" , "Musk Melon" , "Mango" , "Raspberry"],
+    "code" : "rahulshettyacademy",
+    "country" : "Armenia"
+
+}
+
+
+]
+

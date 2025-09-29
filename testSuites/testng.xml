@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  thread-count="5" name="Test"  parallel="methods">
+    <classes>
+      <class name="EcommVege.VegeEcomm.SubmitOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="ValidateSearch" thread-count="5" parallel="methods" >
+	<classes>
+		<class name="EcommVege.VegeEcomm.SearchProductTest"></class>
+	</classes>
+  </test>
+  
+  <test name="ProductNotFoundTest" thread-count="5" parallel="methods">
+	<classes>
+		<class name="EcommVege.VegeEcomm.ProductNotFoundTest"></class>
+	</classes>
+  </test>
+</suite> <!-- Suite -->
+
+
