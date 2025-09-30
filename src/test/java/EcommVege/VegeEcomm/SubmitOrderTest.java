@@ -14,6 +14,7 @@ import EcommVege.testComponents.BaseTest;
 
 public class SubmitOrderTest extends BaseTest {
 
+//Comments added by Harpreet Sindhia
 
 	@Test(dataProvider = "getData")
 	public void submitOrderTest(HashMap<String, Object> input) throws IOException {
